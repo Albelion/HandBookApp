@@ -1,0 +1,98 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.searchWrapper {
+  display: flex;
+  width: 100%;
+}
+.mainTitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+.mainPageWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+  border: solid 2px;
+  padding: 10px;
+  width: 320px;
+}
+.submitStyle {
+  padding: 10px;
+  width: 90%;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 10px;
+  align-self: center;
+}
+.formTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0px 10px 0px;
+  align-self: center;
+}
+.deleteButton {
+  padding: 2px;
+  background-color: #d84627;
+  color: white;
+}
+.deleteButton:hover {
+  background-color: #d9654c;
+}
+.updateButton {
+  padding: 2px;
+  background-color: #1875ba;
+  color: white;
+}
+.updateButton:hover {
+  background-color: #3a96da;
+}
+.createButton {
+  align-self: start;
+  width: 200px;
+  padding: 15px;
+  color: white;
+  background-color: #10cd24;
+}
+.createButton:hover {
+  background-color: #4dca5b;
+}
+
+#fullName,
+#organization,
+#unit,
+#position,
+#phoneNumber,
+#email{
+  width: 90%;
+}
+
+#searchInput {
+  width: 100%;
+}
+label {
+  font-size: 18px;
+}
+input {
+  padding: 5px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+  border-collapse: collapse;
+}
+button:hover {
+  cursor: pointer;
+}
